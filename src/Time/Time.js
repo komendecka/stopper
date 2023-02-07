@@ -17,7 +17,8 @@ const Time = ({ time }) => {
 
     return (
         <div>
-            <h1 className={styles.time}>{convertedTime(time)}</h1>
+            <h1> StopWatch </h1>
+            <h2 className={styles.time}>{convertedTime(time)}</h2>
         </div>
     );
 };

@@ -1,11 +1,9 @@
 import styles from './Container.scss'
 
-const Container = props => {
-    return (
-        <div>
-            {props.children}
-        </div>
-    );
-};
+const Container = ({ children }) => (
+    <div className={styles.container}>
+        {children}
+    </div>
+)
 
 export default Container;
